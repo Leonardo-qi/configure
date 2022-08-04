@@ -1,0 +1,109 @@
+{
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": true,
+  // 重新设定tabsize
+  "editor.tabSize": 2,
+  // 添加 vue 支持
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "html"],
+  // 显示 markdown 中英文切换时产生的特殊字符
+  "editor.renderControlCharacters": true,
+  //  #让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // #这个按用户自身习惯选择
+  "workbench.iconTheme": "vscode-icons",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "search.followSymlinks": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "typescript.format.semicolons": "remove",
+  "javascript.format.semicolons": "remove",
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.accessibilitySupport": "off",
+  "workbench.sideBar.location": "left",
+  "tabnine.experimentalAutoImports": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "html.format.enable": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true
+  },
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "scssFormatter.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "files.autoSave": "afterDelay",
+  // // 当保存代码的时候，会自动格式化
+  "editor.formatOnSave": true,
+  // 不添加分号
+  "prettier.semi": false,
+  // 使用单引号
+  "prettier.singleQuote": true,
+  // 解决Vue的属性换行问题
+  // "eslint.enable": false, //如果你的项目开启了eslint和.eslintrc.js    那么设置false会关闭所有的eslint的检验（例如驼峰和变量是否声明和==）
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript", //在配置了默认格式后 这个需要打开 否则js格式化会换行
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "proseWrap": "always",
+      "printWidth": 160,
+      "trailingComma": "none"
+    },
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    },
+    "prettyhtml": {
+      "printWidth": 1000,
+      "singleQuote": true,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}
